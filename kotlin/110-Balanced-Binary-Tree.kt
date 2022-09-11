@@ -8,7 +8,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class `110-Balanced-Binary-Tree` {
     fun isBalanced(root: TreeNode?): Boolean {
         return isBalancedUtil(root) != Int.MAX_VALUE
     }

@@ -1,4 +1,4 @@
-class Solution {
+class `45-Jump-Game-II` {
     fun jump(nums: IntArray): Int {
         var left = 0
         var right = 0

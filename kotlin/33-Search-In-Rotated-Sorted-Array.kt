@@ -1,4 +1,4 @@
-class Solution {
+class `33-Search-In-Rotated-Sorted-Array` {
 
 	fun search(nums: IntArray, target: Int): Int {
 		if (nums.isEmpty()) {

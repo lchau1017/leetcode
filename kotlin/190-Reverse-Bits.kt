@@ -1,7 +1,7 @@
-package kotlin
 
 
-class Solution {
+
+class `190-Reverse-Bits` {
     // you need treat n as an unsigned value
    fun reverseBits(n: Int): Int {
        var n = n

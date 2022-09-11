@@ -1,3 +1,5 @@
+import java.util.*
+
 /**
  * Example:
  * var ti = TreeNode(5)
@@ -8,7 +10,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class `199-Binary-Tree-Right-Side-View` {
     fun rightSideView(root: TreeNode?): List<Int> {
         val res = mutableListOf<Int>()
 
@@ -28,10 +30,10 @@ class Solution {
                     res.add(node.`val`)
 
                 if (node.left != null)
-                    queue.add(node.left)
+                    queue.add(node.left!!)
 
                 if (node.right != null)
-                    queue.add(node.right)
+                    queue.add(node.right!!)
             }
         }
 

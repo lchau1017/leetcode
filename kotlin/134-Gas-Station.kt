@@ -1,4 +1,4 @@
-class Solution {
+class `134-Gas-Station` {
     fun canCompleteCircuit(gas: IntArray, cost: IntArray): Int {
         var sum = 0
         val n = gas.size

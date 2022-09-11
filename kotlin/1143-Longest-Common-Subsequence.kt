@@ -1,4 +1,4 @@
-class Solution {
+class `1143-Longest-Common-Subsequence` {
 	fun longestCommonSubsequence(text1: String, text2: String): Int {
 		if (text1.isEmpty() || text2.isEmpty()) {
 			return 0

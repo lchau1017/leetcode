@@ -1,8 +1,8 @@
-package kotlin
+
 
 import TreeNode
 
-class Solution {
+class `543-Diameter-of-Binary-Tree` {
 
     fun diameterOfBinaryTree(root: TreeNode?): Int = maxDiameter(root).second
 

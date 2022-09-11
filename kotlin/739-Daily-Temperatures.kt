@@ -1,6 +1,6 @@
 import java.util.*
 
-class Solution {
+class `739-Daily-Temperatures` {
     fun dailyTemperatures(temperatures: IntArray): IntArray {
         if (temperatures.size == 1) return intArrayOf(0)
         val stack = Stack<Int>()

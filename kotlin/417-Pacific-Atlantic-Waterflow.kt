@@ -1,4 +1,4 @@
-class Solution {
+class `417-Pacific-Atlantic-Waterflow` {
     
     val dirs = arrayOf(intArrayOf(0,1), 
                        intArrayOf(0,-1), 

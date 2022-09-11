@@ -1,4 +1,3 @@
-package kotlin
 
 
 fun spiralOrder(matrix: Array<IntArray>): List<Int> {

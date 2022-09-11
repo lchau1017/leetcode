@@ -8,7 +8,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class `1448-Count-Good-Nodes-In-Binary-Tree` {
     fun goodNodes(root: TreeNode?): Int {
         return goodNodes(root, root!!.`val`)
     }

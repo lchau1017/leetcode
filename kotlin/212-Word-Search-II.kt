@@ -1,4 +1,4 @@
-class Solution {
+class `212-Word-Search-II` {
     private companion object{
         const val IMPOSSIBLE: Char = '#'
         val DIRS = intArrayOf(0, -1, 0, 1, 0)

@@ -1,4 +1,4 @@
-class Solution {
+class `62-Unique-Paths` {
     fun uniquePaths(m: Int, n: Int): Int {
       val dp = Array(m + 1) { IntArray(n + 1) { 0 } }
         val indexM = m - 1

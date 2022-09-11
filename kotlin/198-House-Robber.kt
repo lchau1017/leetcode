@@ -1,4 +1,4 @@
-class Solution {
+class `198-House-Robber` {
 	fun rob(nums: IntArray): Int {
         var rob = 0
         var notRob = 0

@@ -1,4 +1,4 @@
-class Solution {
+class `695-Max-Area-Of-Island` {
     fun maxAreaOfIsland(grid: Array<IntArray>): Int {
         var res = 0
 

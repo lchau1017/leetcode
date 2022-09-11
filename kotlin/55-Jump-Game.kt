@@ -1,4 +1,4 @@
-class Solution {
+class `55-Jump-Game` {
     fun canJump(nums: IntArray): Boolean {
         var goal = nums.size - 1
         

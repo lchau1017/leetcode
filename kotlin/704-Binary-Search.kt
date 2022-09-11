@@ -1,4 +1,4 @@
-class Solution {
+class `704-Binary-Search` {
     fun search(nums: IntArray, target: Int): Int {
         return searchAux(nums, target, 0, nums.size - 1)
     }

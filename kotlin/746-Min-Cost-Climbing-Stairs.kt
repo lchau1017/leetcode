@@ -1,4 +1,4 @@
-class Solution {
+class `746-Min-Cost-Climbing-Stairs` {
     fun minCostClimbingStairs(cost: IntArray): Int {
         for (i in cost.size - 3 downTo 0) {
             cost[i] += minOf(cost[i + 1], cost[i + 2])

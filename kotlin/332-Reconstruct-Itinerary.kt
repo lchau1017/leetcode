@@ -1,6 +1,6 @@
-package kotlin
 
-class Solution {
+
+class `332-Reconstruct-Itinerary` {
 
         fun findItinerary(tickets: List<List<String>>): List<String> {
             val res = ArrayList<String>()

@@ -1,6 +1,6 @@
-package kotlin
 
-class Solution {
+
+class `268-Missing-Number` {
     fun missingNumber(nums: IntArray): Int {
         var missing = nums.size
         for(i in nums.indices){

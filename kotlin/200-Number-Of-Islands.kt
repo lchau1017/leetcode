@@ -1,4 +1,4 @@
-class Solution {
+class `200-Number-Of-Islands` {
     fun numIslands(grid: Array<CharArray>): Int {
         var count = 0
 

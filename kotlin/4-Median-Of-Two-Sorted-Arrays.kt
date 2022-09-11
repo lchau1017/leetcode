@@ -1,4 +1,4 @@
-class Solution {
+class `4-Median-Of-Two-Sorted-Arrays` {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         var i1 = 0
         var i2 = 0

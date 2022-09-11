@@ -1,6 +1,6 @@
-package kotlin
 
-class Solution {
+
+class `191-Number-Of-1-Bits` {
     // you need treat n as an unsigned value
     fun hammingWeight(n:Int):Int {
         

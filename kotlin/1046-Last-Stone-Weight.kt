@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*
+
+class `1046-Last-Stone-Weight` {
     fun lastStoneWeight(stones: IntArray): Int {
         val heap = PriorityQueue<Int>{a, b -> b-a}
 

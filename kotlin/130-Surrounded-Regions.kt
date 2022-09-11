@@ -1,9 +1,8 @@
-package kotlin
 
 // Runtime: 356 ms, faster than 72.97% of Kotlin online submissions for Surrounded Regions.
 // Memory Usage: 48.5 MB, less than 75.68% of Kotlin online submissions for Surrounded Regions.
 // https://leetcode.com/submissions/detail/776042031/
-class Solution {
+class `130-Surrounded-Regions` {
     fun solve(board: Array<CharArray>): Unit {
         val n = board.size
         val m = board[0].size

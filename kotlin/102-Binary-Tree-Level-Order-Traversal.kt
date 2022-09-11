@@ -1,3 +1,5 @@
+import java.util.*
+
 /**
  * Example:
  * var ti = TreeNode(5)
@@ -8,7 +10,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class `102-Binary-Tree-Level-Order-Traversal` {
     fun levelOrder(root: TreeNode?): List<List<Int>> {
         val res = mutableListOf<List<Int>>()
 
@@ -27,10 +29,10 @@ class Solution {
                 level.add(node.`val`)
 
                 if (node.left != null)
-                    queue.add(node.left)
+                    queue.add(node.left!!)
 
                 if (node.right != null)
-                    queue.add(node.right)
+                    queue.add(node.right!!)
             }
 
             res.add(level)

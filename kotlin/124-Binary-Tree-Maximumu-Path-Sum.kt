@@ -8,7 +8,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class `124-Binary-Tree-Maximumu-Path-Sum` {
     fun maxPathSum(root: TreeNode?): Int {
         val res = IntArray(1) {Int.MIN_VALUE}
         maxPathSum(root, res)

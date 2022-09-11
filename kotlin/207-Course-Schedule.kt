@@ -1,4 +1,4 @@
-class Solution {
+class `207-Course-Schedule` {
     fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {
       
       if (prerequisites.isEmpty()) return true

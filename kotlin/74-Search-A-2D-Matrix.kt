@@ -1,6 +1,5 @@
-package kotlin
 
-class Solution {
+class `74-Search-A-2D-Matrix` {
 
     // TC: O(log m + log n)
     fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {

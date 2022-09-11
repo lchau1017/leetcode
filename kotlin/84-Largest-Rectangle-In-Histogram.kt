@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*
+
+class `84-Largest-Rectangle-In-Histogram` {
     fun largestRectangleArea(heights: IntArray): Int {
         val st = LinkedList<IntArray>()
         st.push(intArrayOf(-1, 0))

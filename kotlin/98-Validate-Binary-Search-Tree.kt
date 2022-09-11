@@ -8,7 +8,7 @@
  *     var right: TreeNode? = null
  * }
  */
-class Solution {
+class `98-Validate-Binary-Search-Tree` {
     fun isValidBST(root: TreeNode?): Boolean {
         return isValidBST(root, null, null)
     }

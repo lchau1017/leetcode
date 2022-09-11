@@ -1,4 +1,4 @@
-class Solution {
+class `875-Koko-Eating-Bananas` {
     fun minEatingSpeed(piles: IntArray, h: Int): Int {
         var left = 1
         var right = 1

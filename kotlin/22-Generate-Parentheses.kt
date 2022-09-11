@@ -1,4 +1,4 @@
-class Solution {
+class `22-Generate-Parentheses` {
     private val resultList = mutableListOf<String>()
     
     fun generateParenthesis(n: Int): List<String> {

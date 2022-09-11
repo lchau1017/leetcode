@@ -1,4 +1,4 @@
-class Solution {
+class `684-Redundant-Connection` {
     fun findRedundantConnection(edges: Array<IntArray>): IntArray {
         val uf = UnionFind(edges.size)
 

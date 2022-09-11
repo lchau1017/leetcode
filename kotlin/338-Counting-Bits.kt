@@ -1,4 +1,4 @@
-class Solution {
+class `338-Counting-Bits` {
     fun countBits(n: Int): IntArray {
         var dp = IntArray(n + 1)
         var offset = 1

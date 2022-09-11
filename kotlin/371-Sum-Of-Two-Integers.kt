@@ -1,4 +1,4 @@
-class Solution {
+class `371-Sum-Of-Two-Integers` {
     fun getSum(a: Int, b: Int): Int {
         var a1 = a
         var b1 = b

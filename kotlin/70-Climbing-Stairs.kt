@@ -1,4 +1,4 @@
-class Solution {
+class `70-Climbing-Stairs` {
     fun climbStairs(n: Int): Int {
         if (n <= 3) {
             return n

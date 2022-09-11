@@ -1,4 +1,4 @@
-class Solution {
+class `7-Reverse-Integer` {
     fun reverse(x: Int): Int {
         val MIN = Int.MIN_VALUE
         val MAX = Int.MAX_VALUE

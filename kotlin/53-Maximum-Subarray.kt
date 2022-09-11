@@ -1,4 +1,4 @@
-class Solution {
+class `53-Maximum-Subarray` {
     fun maxSubArray(nums: IntArray): Int {
         var sum = nums[0]
         var currsum = 0

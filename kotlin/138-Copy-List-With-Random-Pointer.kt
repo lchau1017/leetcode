@@ -1,11 +1,12 @@
-package kotlin
 
-class Node(var `val`: Int) {
-    var next: Node? = null
-    var random: Node? = null
-}
 
-class Solution {
+
+
+class `138-Copy-List-With-Random-Pointer` {
+    class Node(var `val`: Int) {
+        var next: Node? = null
+        var random: Node? = null
+    }
     fun copyRandomList(node: Node?): Node? {
         if (node == null) return null
         val hashMap = HashMap<Node, Node>()

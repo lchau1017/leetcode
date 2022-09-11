@@ -1,4 +1,4 @@
-class Solution {
+class `213-House-Robber-II` {
     fun rob(nums: IntArray): Int {
         if (nums.isEmpty()) return 0
         if (nums.size == 1) return nums[0]

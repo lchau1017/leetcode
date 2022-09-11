@@ -1,4 +1,4 @@
-class Solution {
+class `79-Word-Search` {
 var ROWS: Int = 0
 var COLS: Int = 0
 
