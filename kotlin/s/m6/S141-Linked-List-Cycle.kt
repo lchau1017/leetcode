@@ -1,6 +1,8 @@
 
 
-class `141-Linked-List-Cycle` {
+import ListNode
+
+class `S141-Linked-List-Cycle` {
     fun hasCycle(head: ListNode?): Boolean {
         if (head == null) return false
         var slowPointer = head
@@ -12,6 +14,5 @@ class `141-Linked-List-Cycle` {
         }
         return false
     }
-
-
 }
+

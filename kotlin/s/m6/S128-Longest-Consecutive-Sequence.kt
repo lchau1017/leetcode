@@ -1,6 +1,6 @@
-import kotlin.math.max
 
-class `128-Longest-Consecutive-Sequence` {
+
+class `S128-Longest-Consecutive-Sequence` {
     fun longestConsecutive(nums: IntArray): Int {
         if (nums.isEmpty()) return 0
         if (nums.size == 1) return 1

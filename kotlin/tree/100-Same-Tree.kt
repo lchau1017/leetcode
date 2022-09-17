@@ -1,6 +1,3 @@
-package kotlin.tree
-
-import TreeNode
 
 /**
  * Example:
